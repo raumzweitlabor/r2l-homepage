@@ -1,6 +1,6 @@
-# rzl-homepage
-[![Build Status](https://travis-ci.org/raumzeitlabor/rzl-homepage.svg?branch=master)](https://travis-ci.org/raumzeitlabor/rzl-homepage)
-[![DevDependency Updates](https://david-dm.org/raumzeitlabor/rzl-homepage/dev-status.svg)](https://david-dm.org/raumzeitlabor/rzl-homepage#info=devDependencies&view=table)
+# r2l-homepage
+[![Build Status](https://travis-ci.org/raumzweitlabor/r2l-homepage.svg?branch=master)](https://travis-ci.org/raumzweitlabor/r2l-homepage)
+[![DevDependency Updates](https://david-dm.org/raumzweitlabor/r2l-homepage/dev-status.svg)](https://david-dm.org/raumzweitlabor/r2l-homepage#info=devDependencies&view=table)
 
 *This repository is rather large (about 200MB at the time of writing) because
 everything (including images) is included. The initial cloning therefore takes
@@ -17,7 +17,7 @@ own environment. Choose as you like.
 
 **experimental**
 
-    docker run --rm=true -e DEVUID=$(id -u) -p 127.0.0.1:8000:8000 -v $(pwd):/home/dev raumzeitlabor/rzl-homepage-dev-docker
+    docker run --rm=true -e DEVUID=$(id -u) -p 127.0.0.1:8000:8000 -v $(pwd):/home/dev raumzweitlabor/r2l-homepage-dev-docker
 
 ### Plain
 
@@ -97,7 +97,7 @@ infrastructure; due to lack of IPv6 (we deploy via IPv6) we had to switch back
 to the standard virtualized boxes, leading to a much slower build.
 
 The homepage is served by the
-[rzl-homepage-docker](https://github.com/raumzeitlabor/rzl-homepage-docker)
+[r2l-homepage-docker](https://github.com/raumzweitlabor/r2l-homepage-docker)
 container. Anything related to webserver setup should be filed against that
 repository.
 
